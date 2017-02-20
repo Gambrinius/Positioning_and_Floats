@@ -7,12 +7,13 @@ body {
 }
 
 .common_frame {
-    position: relative;
     width: 564px;
     height: 2000px;
-    z-index: 50;
-    left: 50%;
     margin: 200px 0 0 -282px;
+
+    position: relative;
+    left: 50%;
+    z-index: 50;
 }
 
 /*common attributes for pages*/
@@ -82,4 +83,65 @@ body {
     position: absolute;
     top: 48px;
     left: 440px;
+}
+
+.content {
+    padding: 20px 32px 48px 32px;
+}
+
+h1, h2, p {
+    color:  #333333;
+    font-weight: 400;
+    text-align: left;
+}
+
+.first_page h1 {
+    font-size: 24px;
+}
+
+h1+img {
+    padding: 5px 0 0 0;
+    float: left;
+}
+
+h1+img+p {
+    padding: 0 0 0 232px;
+}
+
+p+img {
+    float: right;
+}
+
+h2 {
+    font-size: 18px;
+    padding: 20px 0 0 0;
+}
+
+.img_left_top {
+    float: left;
+}
+
+.img_left_bottom {
+    float: left;
+    margin: 14px 0 0 0;
+}
+
+.img_right_top {
+    float: right;
+    margin: 0 0 0 66px;
+}
+
+.img_right_bottom {
+    float: right;
+    margin: 14px 0 0 66px;
+}
+
+footer {
+    padding: 10px 9px 0 9px;
+    clear: both;
+}
+
+footer p {
+    font-size: 9px;
+    text-align: center;
 }
